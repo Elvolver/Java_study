@@ -1,4 +1,4 @@
-package Learn;
+package Java_study;
 
 import static org.junit.Assert.assertTrue;
 
