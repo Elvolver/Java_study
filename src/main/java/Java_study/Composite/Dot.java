@@ -2,15 +2,26 @@ package Java_study.Composite;
 
 import java.awt.*;
 
-/**
- * Created with IntelliJ IDEA.
- * User: volkov
- * Date: 28.01.19
- * Time: 18:31
- * To change this template use File | Settings | File Templates.
- */
 public class Dot extends BaseShape {
-    Dot(int x, int y, Color color) {
+    private final int DOT_SIZE = 3;
+
+    public Dot(int x, int y, Color color) {
         super(x, y, color);
+    }
+
+    @Override
+    public int getWidth() {
+        return DOT_SIZE;
+    }
+
+    @Override
+    public int getHeight() {
+        return DOT_SIZE;
+    }
+
+    @Override
+    public void paint(Graphics graphics) {
+        super.paint(graphics);
+        graphics.fillRect(x - 1, y - 1, getWidth(), getHeight());
     }
 }

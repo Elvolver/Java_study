@@ -1,11 +1,16 @@
 package Java_study.Adapter;
 
-/**
- * Created with IntelliJ IDEA.
- * User: volkov
- * Date: 21.01.19
- * Time: 20:00
- * To change this template use File | Settings | File Templates.
- */
-public class SquarePeg {
+public class SquarePeg{
+    private double width;
+
+    public SquarePeg(double width) {
+        this.width = width;
+    }
+
+    public double getWidth() {
+        return width;
+    }
+    public double getArea() {
+        return Math.pow(width, 2);
+    }
 }

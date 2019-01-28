@@ -1,6 +1,6 @@
 package Java_study.Furniture;
 
-public class ModernChair implements Chair {
+public class ModernChair extends Chair {
     @Override
     public boolean isSoft() {
         return false;

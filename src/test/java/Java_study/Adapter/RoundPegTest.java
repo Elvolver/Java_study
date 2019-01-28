@@ -1,14 +1,14 @@
 package Java_study.Adapter;
 
-/**
- * Created with IntelliJ IDEA.
- * User: volkov
- * Date: 24.01.19
- * Time: 11:53
- * To change this template use File | Settings | File Templates.
- */
-public class RoundPegTest {
-    public void testGetRadius() throws Exception {
+import org.junit.Test;
 
+import static junit.framework.Assert.assertEquals;
+
+public class RoundPegTest {
+    private RoundPeg roundPeg = new RoundPeg(5);
+
+    @Test
+    public void testGetRadius() throws Exception {
+        assertEquals(roundPeg.getRadius(), 5.0);
     }
 }

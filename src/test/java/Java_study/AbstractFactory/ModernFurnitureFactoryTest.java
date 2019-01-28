@@ -1,18 +1,23 @@
 package Java_study.AbstractFactory;
 
-/**
- * Created with IntelliJ IDEA.
- * User: volkov
- * Date: 11.01.19
- * Time: 16:35
- * To change this template use File | Settings | File Templates.
- */
+import Java_study.Furniture.*;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
 public class ModernFurnitureFactoryTest {
+
+    ModernFurnitureFactory modernFurnitureFactory = new ModernFurnitureFactory();
+
+    @Test
     public void testCreateChair() throws Exception {
-
+        Chair modernChair = new ModernChair();
+        assertTrue(modernChair.equals(modernFurnitureFactory.createChair()));
     }
-
+    @Test
     public void testCreateCofeeTable() throws Exception {
-
+        CoffeeTable modernCofeeTable = new ModernCoffeeTable();
+        assertTrue(modernCofeeTable.equals(modernFurnitureFactory.createCofeeTable()));
     }
 }

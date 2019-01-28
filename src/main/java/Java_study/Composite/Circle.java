@@ -2,15 +2,27 @@ package Java_study.Composite;
 
 import java.awt.*;
 
-/**
- * Created with IntelliJ IDEA.
- * User: volkov
- * Date: 28.01.19
- * Time: 18:38
- * To change this template use File | Settings | File Templates.
- */
 public class Circle extends BaseShape {
-    Circle(int x, int y, Color color) {
+    public int radius;
+
+    Circle(int x, int y, int radius, Color color) {
         super(x, y, color);
+        this.radius = radius;
+    }
+
+    @Override
+    public int getWidth() {
+        return radius * 2;
+    }
+
+    @Override
+    public int getHeight() {
+        return radius * 2;
+    }
+
+    @Override
+    public void paint(Graphics graphics) {
+        super.paint(graphics);
+        graphics.drawOval(x, y, getWidth() - 1, getHeight() - 1);
     }
 }

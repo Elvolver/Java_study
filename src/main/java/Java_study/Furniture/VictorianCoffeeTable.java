@@ -1,6 +1,6 @@
 package Java_study.Furniture;
 
-public class VictorianCoffeeTable implements CoffeeTable {
+public class VictorianCoffeeTable extends CoffeeTable {
     @Override
     public Integer getComfortLevel() {
         return 4;

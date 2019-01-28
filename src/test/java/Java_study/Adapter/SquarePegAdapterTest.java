@@ -1,14 +1,15 @@
 package Java_study.Adapter;
 
-/**
- * Created with IntelliJ IDEA.
- * User: volkov
- * Date: 24.01.19
- * Time: 17:48
- * To change this template use File | Settings | File Templates.
- */
-public class SquarePegAdapterTest {
-    public void testGetRadius() throws Exception {
+import org.junit.Test;
 
+import static junit.framework.Assert.assertEquals;
+
+public class SquarePegAdapterTest {
+    private SquarePeg squarePeg = new SquarePeg(Math.sqrt(2.0));
+    private SquarePegAdapter squarePegAdapter = new SquarePegAdapter(squarePeg);
+
+    @Test
+    public void testGetRadius() throws Exception {
+        assertEquals(squarePegAdapter.getRadius(), 1.0);
     }
 }

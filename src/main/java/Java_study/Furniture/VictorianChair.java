@@ -1,6 +1,6 @@
 package Java_study.Furniture;
 
-public class VictorianChair implements Chair {
+public class VictorianChair extends Chair {
 
     @Override
     public boolean isSoft() {

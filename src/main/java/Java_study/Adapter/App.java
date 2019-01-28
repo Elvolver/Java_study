@@ -8,4 +8,7 @@ package Java_study.Adapter;
  * To change this template use File | Settings | File Templates.
  */
 public class App {
+    public static void main(String[] args) {
+        System.out.println("Hello");
+    }
 }

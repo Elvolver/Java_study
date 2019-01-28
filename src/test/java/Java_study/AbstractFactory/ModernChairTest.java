@@ -1,26 +1,29 @@
 package Java_study.AbstractFactory;
 
-/**
- * Created with IntelliJ IDEA.
- * User: volkov
- * Date: 11.01.19
- * Time: 15:57
- * To change this template use File | Settings | File Templates.
- */
+import Java_study.Furniture.Chair;
+import Java_study.Furniture.ModernChair;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
 public class ModernChairTest {
+
+    Chair chair = new ModernChair();
+    @Test
     public void testIsSoft() throws Exception {
-
+        assertTrue(false == chair.isSoft());
     }
-
+    @Test
     public void testHasArmrest() throws Exception {
-
+        assertTrue(false == chair.hasArmrest());
     }
-
+    @Test
     public void testGetComfortLevel() throws Exception {
-
+        assertTrue(3 == chair.getComfortLevel());
     }
-
+    @Test
     public void testGetMaterial() throws Exception {
-
+        assertEquals(chair.getMaterial(), "Still and plastic");
     }
 }

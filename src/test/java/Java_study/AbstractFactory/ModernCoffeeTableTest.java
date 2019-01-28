@@ -1,18 +1,23 @@
 package Java_study.AbstractFactory;
 
-/**
- * Created with IntelliJ IDEA.
- * User: volkov
- * Date: 11.01.19
- * Time: 16:16
- * To change this template use File | Settings | File Templates.
- */
-public class ModernCoffeeTableTest {
-    public void testGetComfortLevel() throws Exception {
+import Java_study.Furniture.CoffeeTable;
+import Java_study.Furniture.ModernCoffeeTable;
+import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
+public class ModernCoffeeTableTest {
+
+    public CoffeeTable coffeeTable = new ModernCoffeeTable();
+
+    @Test
+    public void testGetComfortLevel() throws Exception {
+        assertTrue(4 == coffeeTable.getComfortLevel());
     }
 
+    @Test
     public void testGetMaterial() throws Exception {
-
+        assertEquals(coffeeTable.getMaterial(), "Still and plastic");
     }
 }

@@ -1,11 +1,15 @@
 package Java_study.Adapter;
 
-/**
- * Created with IntelliJ IDEA.
- * User: volkov
- * Date: 21.01.19
- * Time: 20:00
- * To change this template use File | Settings | File Templates.
- */
-public class SquarePegAdapter {
+public class SquarePegAdapter extends RoundPeg {
+    private SquarePeg squarePeg;
+
+    private static double getRadiusFromWidth(double width) {
+        return Math.sqrt(Math.pow(width, 2)/2);
+    }
+
+    public SquarePegAdapter(SquarePeg peg) {
+        super(getRadiusFromWidth(peg.getWidth()));
+        this.squarePeg = peg;
+        double width = squarePeg.getWidth();
+    }
 }

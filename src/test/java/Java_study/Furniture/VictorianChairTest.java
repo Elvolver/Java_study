@@ -1,38 +1,36 @@
 package Java_study.Furniture;
 
-/**
- * Created with IntelliJ IDEA.
- * User: volkov
- * Date: 25.01.19
- * Time: 12:01
- * To change this template use File | Settings | File Templates.
- */
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
 public class VictorianChairTest {
+    private VictorianChair victorianChair = new VictorianChair();
+    private VictorianChair victorianChair2 = new VictorianChair();
+
+    @Test
     public void testIsSoft() throws Exception {
-
+        assertTrue(victorianChair.isSoft());
     }
 
+    @Test
     public void testHasArmrest() throws Exception {
-
+        assertTrue(victorianChair.hasArmrest());
     }
 
+    @Test
     public void testGetComfortLevel() throws Exception {
-
+        assertTrue(victorianChair.getComfortLevel().equals(5));
     }
 
+    @Test
     public void testGetMaterial() throws Exception {
-
+        assertTrue(victorianChair.getMaterial().equals("Wood and skin"));
     }
 
-    public void testIsSoft() throws Exception {
-
-    }
-
-    public void testHasArmrest() throws Exception {
-
-    }
-
+    @Test
     public void testEquals() throws Exception {
-
+        assertTrue(victorianChair.equals(victorianChair2));
     }
 }
