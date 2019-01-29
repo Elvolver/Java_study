@@ -1,11 +1,19 @@
 package Java_study.Patterns.Decorator;
 
-/**
- * Created with IntelliJ IDEA.
- * User: volkov
- * Date: 29.01.19
- * Time: 18:02
- * To change this template use File | Settings | File Templates.
- */
 public class App {
+    public static void main(String[] args) {
+        String salaryRecords = "Name,Salary\nJohn Smith,100000\nSteven Jobs,912000";
+        DataSourceDecorator encoded = new CompressionDecorator(
+                new EncryptionDecorator(
+                        new FileDataSource("out/OutputDemo.txt")));
+        encoded.writeData(salaryRecords);
+        DataSource plain = new FileDataSource("out/OutputDemo.txt");
+
+        System.out.println("- Input ----------------");
+        System.out.println(salaryRecords);
+        System.out.println("- Encoded --------------");
+        System.out.println(plain.readData());
+        System.out.println("- Decoded --------------");
+        System.out.println(encoded.readData());
+    }
 }

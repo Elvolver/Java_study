@@ -2,50 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91246c68-5779-451d-bb41-4d5d2d1f048d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/App.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/Adapter/App.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Adapter/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/Composite/App.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Composite/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/AbstractFactory/Application.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/AbstractFactory/Application.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Decorator/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/Button.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Decorator/CompressionDecorator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Decorator/DataSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Decorator/DataSourceDecorator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/Dialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Decorator/EncryptionDecorator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Decorator/FileDataSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/AbstractFactory/FurnitureFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/HtmlButton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/HtmlDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/AbstractFactory/ModernFurnitureFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/AbstractFactory/VictorianFurnitureFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/WindowsButton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/WindowsDialog.java" />
+      <change type="DELETED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\AbstractFactory\FurnitureFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\AbstractFactory\ModernFurnitureFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\AbstractFactory\VictorianFurnitureFactory.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/ObjectEquals/Application.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/ObjectEquals/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Java_study/AbstractFactory/ApplicationTest.java" afterPath="$PROJECT_DIR$/src/test/java/Java_study/AbstractFactory/ApplicationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/Composite/BaseShape.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Composite/BaseShape.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/Furniture/Chair.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Furniture/Chair.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/Composite/Circle.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Composite/Circle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/ObjectEquals/Circle.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/ObjectEquals/Circle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/Furniture/CoffeeTable.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Furniture/CoffeeTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/Composite/CompoundShape.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Composite/CompoundShape.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/Composite/Dot.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Composite/Dot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/Composite/ImageEditor.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Composite/ImageEditor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/Furniture/ModernChair.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Furniture/ModernChair.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Java_study/AbstractFactory/ModernChairTest.java" afterPath="$PROJECT_DIR$/src/test/java/Java_study/AbstractFactory/ModernChairTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/Furniture/ModernCoffeeTable.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Furniture/ModernCoffeeTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Java_study/AbstractFactory/ModernCoffeeTableTest.java" afterPath="$PROJECT_DIR$/src/test/java/Java_study/AbstractFactory/ModernCoffeeTableTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Java_study/AbstractFactory/ModernFurnitureFactoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/Java_study/AbstractFactory/ModernFurnitureFactoryTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/Composite/Rectangle.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Composite/Rectangle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/AbstractFactory/Room.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/AbstractFactory/Room.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/Adapter/RoundHole.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Adapter/RoundHole.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Java_study/Adapter/RoundHoleTest.java" afterPath="$PROJECT_DIR$/src/test/java/Java_study/Adapter/RoundHoleTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/Adapter/RoundPeg.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Adapter/RoundPeg.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Java_study/Adapter/RoundPegTest.java" afterPath="$PROJECT_DIR$/src/test/java/Java_study/Adapter/RoundPegTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/Composite/Shape.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Composite/Shape.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/Adapter/SquarePeg.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Adapter/SquarePeg.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/Adapter/SquarePegAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Adapter/SquarePegAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Java_study/Adapter/SquarePegAdapterTest.java" afterPath="$PROJECT_DIR$/src/test/java/Java_study/Adapter/SquarePegAdapterTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Java_study/Adapter/SquarePegTest.java" afterPath="$PROJECT_DIR$/src/test/java/Java_study/Adapter/SquarePegTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Study.iml" afterPath="$PROJECT_DIR$/Study.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/Furniture/VictorianChair.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Furniture/VictorianChair.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Java_study/Furniture/VictorianChairTest.java" afterPath="$PROJECT_DIR$/src/test/java/Java_study/Furniture/VictorianChairTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/Furniture/VictorianCoffeeTable.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Furniture/VictorianCoffeeTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Java_study/Furniture/VictorianCoffeeTableTest.java" afterPath="$PROJECT_DIR$/src/test/java/Java_study/Furniture/VictorianCoffeeTableTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\AbstractFactory\Application.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/AbstractFactory/Application.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\AbstractFactory\Room.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/AbstractFactory/Room.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Adapter\App.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Adapter/App.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Adapter\RoundHole.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Adapter/RoundHole.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Adapter\RoundPeg.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Adapter/RoundPeg.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Adapter\SquarePeg.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Adapter/SquarePeg.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Adapter\SquarePegAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Adapter/SquarePegAdapter.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Composite\App.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Composite/App.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Composite\BaseShape.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Composite/BaseShape.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Composite\Circle.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Composite/Circle.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Composite\CompoundShape.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Composite/CompoundShape.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Composite\Dot.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Composite/Dot.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Composite\ImageEditor.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Composite/ImageEditor.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Composite\Rectangle.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Composite/Rectangle.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Composite\Shape.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Composite/Shape.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Furniture\Chair.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/AbstractFactory/Furniture/Chair.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Furniture\CoffeeTable.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/AbstractFactory/Furniture/CoffeeTable.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Furniture\Furniture.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/AbstractFactory/Furniture/Furniture.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Furniture\ModernChair.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/AbstractFactory/Furniture/ModernChair.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Furniture\ModernCoffeeTable.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/AbstractFactory/Furniture/ModernCoffeeTable.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Furniture\VictorianChair.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/AbstractFactory/Furniture/VictorianChair.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Furniture\VictorianCoffeeTable.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/AbstractFactory/Furniture/VictorianCoffeeTable.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\test\java\Java_study\AbstractFactory\ApplicationTest.java" afterPath="$PROJECT_DIR$/src/test/java/Java_study/Patterns/AbstractFactory/ApplicationTest.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\test\java\Java_study\AbstractFactory\ModernChairTest.java" afterPath="$PROJECT_DIR$/src/test/java/Java_study/Patterns/AbstractFactory/ModernChairTest.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\test\java\Java_study\AbstractFactory\ModernCoffeeTableTest.java" afterPath="$PROJECT_DIR$/src/test/java/Java_study/Patterns/AbstractFactory/ModernCoffeeTableTest.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\test\java\Java_study\AbstractFactory\ModernFurnitureFactoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/Java_study/Patterns/AbstractFactory/ModernFurnitureFactoryTest.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\test\java\Java_study\Adapter\RoundHoleTest.java" afterPath="$PROJECT_DIR$/src/test/java/Java_study/Patterns/Adapter/RoundHoleTest.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\test\java\Java_study\Adapter\RoundPegTest.java" afterPath="$PROJECT_DIR$/src/test/java/Java_study/Patterns/Adapter/RoundPegTest.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\test\java\Java_study\Adapter\SquarePegAdapterTest.java" afterPath="$PROJECT_DIR$/src/test/java/Java_study/Patterns/Adapter/SquarePegAdapterTest.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\test\java\Java_study\Adapter\SquarePegTest.java" afterPath="$PROJECT_DIR$/src/test/java/Java_study/Patterns/Adapter/SquarePegTest.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\test\java\Java_study\Furniture\VictorianChairTest.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/AbstractFactory/Furniture/VictorianChairTest.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\test\java\Java_study\Furniture\VictorianCoffeeTableTest.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/AbstractFactory/Furniture/VictorianCoffeeTableTest.java" />
     </list>
     <ignored path="Study.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548686681545" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1547201242006" ignored="false" />
     <file path="/Chair.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1547218967572" ignored="false" />
     <file path="/Sofa.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1547201084948" ignored="false" />
     <file path="/CoffeeTable.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1547218815918" ignored="false" />
@@ -59,7 +73,7 @@
     <file path="/ModernFurnitureFactory.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1547208676395" ignored="false" />
     <file path="/Application.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548408139758" ignored="false" />
     <file path="/Room.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1547209701729" ignored="false" />
-    <file path="/fragment.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548690341538" ignored="false" />
+    <file path="/fragment.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548779650851" ignored="false" />
     <file path="/ApplicationTest.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1547211026262" ignored="false" />
     <file path="/ModernChairTest.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1547212077238" ignored="false" />
     <file path="/ModernCoffeeTableTest.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1547212833171" ignored="false" />
@@ -72,7 +86,7 @@
     <file path="/RoundPeg.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548090385591" ignored="false" />
     <file path="/SquarePeg.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548090694459" ignored="false" />
     <file path="/SquarePegAdapter.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548344115914" ignored="false" />
-    <file path="/App.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548692966622" ignored="false" />
+    <file path="/App.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548779922905" ignored="false" />
     <file path="/RoundHoleTest.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548322626167" ignored="false" />
     <file path="/RoundPegTest.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548320122618" ignored="false" />
     <file path="/SquarePegTest.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548320257178" ignored="false" />
@@ -86,6 +100,15 @@
     <file path="/Rectangle.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548690311796" ignored="false" />
     <file path="/CompoundShape.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548693285910" ignored="false" />
     <file path="/ImageEditor.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548692787577" ignored="false" />
+    <file path="/DataSource.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548773134196" ignored="false" />
+    <file path="/FileDataSource.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548774865954" ignored="false" />
+    <file path="/DataSourceDecorator.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548773729089" ignored="false" />
+    <file path="/EncryptionDecorator.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548774128232" ignored="false" />
+    <file path="$PROJECT_DIR$/out/OutputDemo.txt" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548777926497" ignored="false" />
+    <file path="/WindowsButton.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548779428252" ignored="false" />
+    <file path="/Dialog.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548779582873" ignored="false" />
+    <file path="/HtmlDialog.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548779627631" ignored="false" />
+    <file path="/WindowsDialog.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548779673910" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +116,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Study$SquarePegAdapterTest.coverage" NAME="SquarePegAdapterTest Coverage Results" MODIFIED="1548342975130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Java_study.Adapter.*</FILTER>
@@ -118,6 +146,11 @@
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
@@ -165,87 +198,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Shape.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Composite/Shape.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="53" selection-start="0" selection-end="323" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseShape.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Composite/BaseShape.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="49" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CompoundShape.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Composite/CompoundShape.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="63" selection-start="0" selection-end="3290" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageEditor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Composite/ImageEditor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="66" selection-start="2048" selection-end="2048" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="App.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Composite/App.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
+            <state line="14" column="32" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rectangle.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Composite/Rectangle.java">
+      <file leaf-file-name="Button.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/Button.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+            <state line="4" column="9" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Circle.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Composite/Circle.java">
+      <file leaf-file-name="Dialog.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/Dialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="37" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+            <state line="10" column="36" selection-start="229" selection-end="229" vertical-scroll-proportion="0.28911564">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dot.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Composite/Dot.java">
+      <file leaf-file-name="HtmlButton.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/HtmlButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="31" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+            <state line="2" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/App.java">
+      <file leaf-file-name="HtmlDialog.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/HtmlDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="46" selection-start="145" selection-end="145" vertical-scroll-proportion="0.26984128">
+            <state line="2" column="34" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WindowsButton.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/WindowsButton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="84" selection-start="806" selection-end="806" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1040#1238#0" expanded="true" />
+                <element signature="e#1227#1228#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -265,25 +271,32 @@
       <MyDateState />
     </option>
   </component>
+  <component name="GradleLocalSettings">
+    <option name="expandStates">
+      <map>
+        <entry key="Study" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/App.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Java_study/Furniture/VictorianCoffeeTableTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Java_study/Furniture/ChairTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/Furniture/Chair.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/ObjectEquals/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/ObjectEquals/Circle.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Java_study/Furniture/VictorianChairTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/Composite/Shape.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/Composite/BaseShape2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/Composite/BaseShape.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/Composite/Circle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/Composite/Rectangle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/Composite/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/Composite/ImageEditor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/Composite/CompoundShape.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/Composite/Dot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Composite/Shape.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/AbstractFactory/Furniture/VictorianCoffeeTableTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Decorator/DataSourceDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Decorator/EncryptionDecorator.java" />
+        <option value="$PROJECT_DIR$/out/OutputDemo.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Decorator/FileDataSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Decorator/CompressionDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Decorator/DataSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/Button.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/HtmlButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/HtmlDialog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/Dialog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/WindowsDialog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Decorator/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/WindowsButton.java" />
       </list>
     </option>
   </component>
@@ -400,18 +413,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -427,7 +428,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -436,70 +437,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Java_study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Furniture" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java_study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Adapter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java_study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AbstractFactory" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -528,6 +465,44 @@
               <option name="myItemId" value="Java_study" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FactoryMethod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java_study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java_study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -536,7 +511,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/Java_study/Furniture" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/Java_study/AbstractFactory" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="project.structure.proportion" value="0.0" />
@@ -566,7 +541,12 @@
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Java_study.Patterns.FactoryMethod" />
+      <recent name="Java_study.Patterns.Decorator" />
       <recent name="Java_study.Composite" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\MyProjects\Java_study\java_study" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Java_study.AbstractFactory" />
@@ -576,15 +556,15 @@
     <configuration default="false" name="VictorianChairTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Java_study.Furniture.*" />
+          <option name="PATTERN" value="Java_study.Patterns.AbstractFactory.Furniture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Study" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Java_study.Furniture" />
-      <option name="MAIN_CLASS_NAME" value="Java_study.Furniture.VictorianChairTest" />
+      <option name="PACKAGE_NAME" value="Java_study.Patterns.AbstractFactory.Furniture" />
+      <option name="MAIN_CLASS_NAME" value="Java_study.Patterns.AbstractFactory.Furniture.VictorianChairTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -601,47 +581,17 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="SquarePegTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="Java_study.Patterns.AbstractFactory.Furniture in Study" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Java_study.Adapter.*" />
+          <option name="PATTERN" value="Java_study.Patterns.AbstractFactory.Furniture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Study" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Java_study.Adapter" />
-      <option name="MAIN_CLASS_NAME" value="Java_study.Adapter.SquarePegTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Cover" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Cover" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Java_study.Furniture in Study" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Java_study.Furniture.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Study" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Java_study.Furniture" />
+      <option name="PACKAGE_NAME" value="Java_study.Patterns.AbstractFactory.Furniture" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
@@ -681,14 +631,42 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="Java_study.Patterns in Study" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Java_study.Composite.*" />
+          <option name="PATTERN" value="Java_study.Patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Java_study.Composite.App" />
+      <module name="Study" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Java_study.Patterns" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Java_study.Patterns.FactoryMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Java_study.Patterns.FactoryMethod.App" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -817,18 +795,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.VictorianChairTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SquarePegTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Java_study.Furniture in Study" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Application" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Java_study.Patterns.AbstractFactory.Furniture in Study" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Application" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Java_study.Patterns in Study" />
       <item index="4" class="java.lang.String" itemvalue="Application.App" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.App" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.VictorianChairTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Application" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Java_study.Furniture in Study" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SquarePegTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.App" />
+        <item index="2" class="java.lang.String" itemvalue="Application.App" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Java_study.Patterns in Study" />
+        <item index="4" class="java.lang.String" itemvalue="Application.App" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -890,26 +868,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39911798" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27908218" sideWeight="0.32083791" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855567" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27908218" sideWeight="0.3263506" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37833512" sideWeight="0.676957" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18303095" sideWeight="0.60088205" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20811099" sideWeight="0.676957" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20811099" sideWeight="0.676957" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.323043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -979,120 +957,120 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Furniture/ModernChair.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Decorator/CompressionDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Furniture/Chair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="42" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Furniture/VictorianChair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Furniture/VictorianCoffeeTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Java_study/Furniture/VictorianCoffeeTableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="31" selection-end="54" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Java_study/Furniture/VictorianChairTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="33" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
+        <state line="54" column="35" selection-start="1579" selection-end="1579" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/ObjectEquals/Circle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Decorator/EncryptionDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="68" selection-start="325" selection-end="325" vertical-scroll-proportion="0.28878823">
+        <state line="26" column="67" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Composite/Circle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Decorator/DataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="37" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+        <state line="9" column="23" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Composite/Rectangle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Decorator/DataSourceDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+        <state line="14" column="62" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Composite/ImageEditor.java">
+    <entry file="jar://C:/Java/jdk1.8.0_60/src.zip!/javax/swing/AbstractButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="66" selection-start="2048" selection-end="2048" vertical-scroll-proportion="0.0">
+        <state line="74" column="22" selection-start="2081" selection-end="2081" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_60/src.zip!/javax/swing/JButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="37" selection-start="2156" selection-end="2156" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_60/src.zip!/javax/swing/JComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="22" selection-start="6553" selection-end="6553" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_60/src.zip!/javax/swing/JPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="32" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/WindowsDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="57" selection-end="57" vertical-scroll-proportion="0.05782313">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/HtmlButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="9" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Decorator/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="29" selection-start="760" selection-end="760" vertical-scroll-proportion="0.46258503">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/WindowsButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="84" selection-start="806" selection-end="806" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1040#1238#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Composite/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
+        <state line="14" column="32" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Composite/CompoundShape.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/HtmlDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="63" selection-start="0" selection-end="3290" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Composite/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="53" selection-start="0" selection-end="323" vertical-scroll-proportion="0.0">
+        <state line="2" column="34" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Composite/BaseShape.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/FactoryMethod/Dialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="49" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Composite/Dot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="31" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="46" selection-start="145" selection-end="145" vertical-scroll-proportion="0.26984128">
+        <state line="10" column="36" selection-start="229" selection-end="229" vertical-scroll-proportion="0.28911564">
           <folding />
         </state>
       </provider>

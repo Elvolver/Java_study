@@ -8,4 +8,6 @@ package Java_study.Patterns.Decorator;
  * To change this template use File | Settings | File Templates.
  */
 public interface DataSource {
+    public void writeData(String data);
+    public String readData();
 }

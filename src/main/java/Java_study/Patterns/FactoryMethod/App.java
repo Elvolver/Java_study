@@ -1,11 +1,22 @@
 package Java_study.Patterns.FactoryMethod;
 
-/**
- * Created with IntelliJ IDEA.
- * User: volkov
- * Date: 29.01.19
- * Time: 19:34
- * To change this template use File | Settings | File Templates.
- */
 public class App {
+    private static Dialog dialog;
+
+    public static void main(String[] args) {
+        configure();
+        runBusinessLogic();
+    }
+
+    private static void configure() {
+        if (System.getProperty("os.name").equals("Windows 7")) {
+            dialog = new WindowsDialog();
+        } else {
+            dialog = new HtmlDialog();
+        }
+    }
+
+    private static void runBusinessLogic() {
+        dialog.renderWindow();
+    }
 }
