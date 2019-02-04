@@ -21,11 +21,7 @@ public class Subscriber implements Observer {
                 vacanciesOfCategory.addAll(vacanciesForSubscriber);
             }
             System.out.println("Dear " + name + "\nWe have some changes vacancies" + vacansies.get(category));
-
         }
-
-
-
     }
 
     @Override

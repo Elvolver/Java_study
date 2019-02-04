@@ -1,11 +1,26 @@
 package Java_study.Patterns.Observer.VerySimpleObserver;
 
-/**
- * Created with IntelliJ IDEA.
- * User: volkov
- * Date: 04.02.19
- * Time: 18:23
- * To change this template use File | Settings | File Templates.
- */
+import java.util.ArrayList;
+import java.util.List;
+
 public class NewsSite implements Observed {
+    private List<String> news = new ArrayList<>();
+    private List<Observer> subscribers = new ArrayList<>();
+
+    void addNew(String New) {
+        news.add(New);
+        notifyObservers();
+    }
+
+    @Override
+    public void addObserver(Observer observer) {
+        subscribers.add(observer);
+    }
+
+    @Override
+    public void notifyObservers() {
+        for (Observer subscriber : subscribers) {
+            subscriber.handleEvents(this.news);
+        }
+    }
 }

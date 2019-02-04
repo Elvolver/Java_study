@@ -1,11 +1,16 @@
 package Java_study.Patterns.Observer.VerySimpleObserver;
 
-/**
- * Created with IntelliJ IDEA.
- * User: volkov
- * Date: 04.02.19
- * Time: 18:23
- * To change this template use File | Settings | File Templates.
- */
+import java.util.List;
+
 public class Subscriber implements Observer {
+    private String name;
+
+    Subscriber(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public void handleEvents(List<String> news) {
+        System.out.println("Dear," + name + ". News for you:" + news);
+    }
 }

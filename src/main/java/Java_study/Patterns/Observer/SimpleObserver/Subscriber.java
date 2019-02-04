@@ -12,4 +12,7 @@ public class Subscriber implements Observer {
     public void handleEvents(List<String> vacansies) {
         System.out.println("Dear " + name + "\nWe have some changes vacancies" + vacansies);
     }
+    public void addCategory() {
+
+    }
 }

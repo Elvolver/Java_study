@@ -2,45 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91246c68-5779-451d-bb41-4d5d2d1f048d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/App.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/SimpleObserver/App.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/App.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/Editor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/EmailNotificationListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/EventListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/EventManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/EventManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/JavaDeveloperJobSite.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/SimpleObserver/JavaDeveloperJobSite.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/LogNotificationListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/Observed.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/SimpleObserver/Observed.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/Observer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/SimpleObserver/Observer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/Subscriber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/SimpleObserver/Subscriber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/ConstructorsCall/A.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/ConstructorsCall/A.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/ConstructorsCall/B.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/ConstructorsCall/B.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/ParametredObserver/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/VerySimpleObserver/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/ParametredObserver/JavaDeveloperJobSite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/VerySimpleObserver/NewsSite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/VerySimpleObserver/Observed.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/ParametredObserver/Observer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/VerySimpleObserver/Observer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Generics/SimpleList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Generics/SimpleListMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Generics/SimpleMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/ParametredObserver/Subscriber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/VerySimpleObserver/Subscriber.java" />
+      <change type="DELETED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Patterns\Observer\App.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Patterns\Observer\EventManager.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Patterns\Observer\JavaDeveloperJobSite.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Patterns\Observer\Observer.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Patterns\Observer\Subscriber.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/SimpleObserver/Subscriber.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/SimpleObserver/Subscriber.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Patterns\Observer\Observed.java" afterPath="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/ParametredObserver/Observed.java" />
     </list>
     <ignored path="Study.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
-    <file path="/Dummy.txt" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548855363910" ignored="false" />
-    <file path="/App.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548865489257" ignored="false" />
+    <file path="/Dummy.txt" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1549288834795" ignored="false" />
+    <file path="/App.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1549294735453" ignored="false" />
     <file path="/B.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548857010109" ignored="false" />
     <file path="/A.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548857064737" ignored="false" />
     <file path="/EventManager.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548867281512" ignored="false" />
     <file path="/EventListener.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548858187277" ignored="false" />
     <file path="/Editor.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548862334895" ignored="false" />
-    <file path="/fragment.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548867141464" ignored="false" />
+    <file path="/fragment.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1549293820873" ignored="false" />
     <file path="/EmailNotificationListener.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548862492182" ignored="false" />
-    <file path="/Observer.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548866567079" ignored="false" />
-    <file path="/Observed.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548863648014" ignored="false" />
-    <file path="/Subscriber.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548866752725" ignored="false" />
-    <file path="/JavaDeveloperJobSite.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1548867481607" ignored="false" />
+    <file path="/Observer.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1549294153871" ignored="false" />
+    <file path="/Observed.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1549294554204" ignored="false" />
+    <file path="/Subscriber.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1549294288452" ignored="false" />
+    <file path="/JavaDeveloperJobSite.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1549292887859" ignored="false" />
+    <file path="/SimpleMap.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1549009048407" ignored="false" />
+    <file path="/SimpleArray.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1549009181949" ignored="false" />
+    <file path="/SimpleList.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1549011966336" ignored="false" />
+    <file path="/SimpleListMap.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1549009699359" ignored="false" />
+    <file path="/NewsSite.java" changelist="91246c68-5779-451d-bb41-4d5d2d1f048d" time="1549294609720" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +89,6 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -121,7 +124,7 @@
       </breakpoint>
     </breakpoint_any>
     <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/App.java" line="9" class="Java_study.Patterns.Observer.refactoringGuru.App" package="Java_study.Patterns.Observer.refactoringGuru">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -137,74 +140,9 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
-  </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="App.java" pinned="false" current="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/App.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="9" column="39" selection-start="399" selection-end="399" vertical-scroll-proportion="0.1548583">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="Editor.java" pinned="false" current="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/Editor.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="5" column="16" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="EmailNotificationListener.java" pinned="false" current="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/EmailNotificationListener.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="7" column="25" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="EventListener.java" pinned="false" current="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/EventListener.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="4" column="17" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="EventManager.java" pinned="false" current="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/EventManager.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="8" column="13" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="LogNotificationListener.java" pinned="false" current="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/LogNotificationListener.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="4" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FUSProjectUsageTrigger">
@@ -244,10 +182,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EventManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/EventManager.java">
+      <file leaf-file-name="Observer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/VerySimpleObserver/Observer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="177" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
+            <state line="5" column="41" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Subscriber.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/VerySimpleObserver/Subscriber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Observed.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/VerySimpleObserver/Observed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="127" selection-end="154" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewsSite.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/VerySimpleObserver/NewsSite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="10" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -255,84 +220,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Observer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/SimpleObserver/Observer.java">
+      <file leaf-file-name="App.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/VerySimpleObserver/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Subscriber.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/SimpleObserver/Subscriber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="38" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/SimpleObserver/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Subscriber.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/Subscriber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/EventManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="52" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="25" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaDeveloperJobSite.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/JavaDeveloperJobSite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="16" selection-start="497" selection-end="497" vertical-scroll-proportion="0.33333334">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Observer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/Observer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="16" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventListener.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/EventListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
+            <state line="8" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="0.23367697">
               <folding />
             </state>
           </provider>
@@ -363,22 +254,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/EventListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/Editor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/EmailNotificationListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/LogOpenListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/EventManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/Observer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/Observed.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/LogNotificationListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Generics/SimpleArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Generics/SimpleListMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/SimpleObserver/Subscriber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/SimpleObserver/Observer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/Observer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/SimpleObserver/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/Observer/SimpleObserver/Subscriber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/Subscriber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/Observer/SimpleObserver/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/EventManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Generics/SimpleList.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/JavaDeveloperJobSite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/Subscriber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/ParametredObserver/Subscriber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/Observed.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/VerySimpleObserver/Observer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/VerySimpleObserver/Subscriber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/VerySimpleObserver/Observed.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/VerySimpleObserver/NewsSite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/VerySimpleObserver/App.java" />
       </list>
     </option>
   </component>
@@ -552,45 +443,11 @@
               <option name="myItemId" value="Patterns" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Observer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java_study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -631,11 +488,11 @@
       <recent name="F:\MyProjects\Java_study\java_study\src\main\java\Java_study\Patterns\Observer\Observer" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Java_study.Patterns.Observer.VerySimpleObserver" />
       <recent name="Java_study.Patterns.Observer" />
       <recent name="Java_study.ConstructorsCall" />
       <recent name="Java_study.Patterns.FactoryMethod" />
       <recent name="Java_study.Patterns.Decorator" />
-      <recent name="Java_study.Composite" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Java_study.AbstractFactory" />
@@ -657,50 +514,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.App">
-    <configuration default="false" name="A" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Java_study.ConstructorsCall.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Java_study.ConstructorsCall.A" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Study" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Application" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Java_study.ObjectEquals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Java_study.ObjectEquals.App" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Study" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="Java_study.Patterns in Study" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
@@ -729,14 +542,92 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="SimpleMap" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Java_study.Patterns.Observer.*" />
+          <option name="PATTERN" value="Java_study.Generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Java_study.Patterns.Observer.SimpleObserver.App" />
+      <option name="MAIN_CLASS_NAME" value="Java_study.Generics.SimpleMap" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Study" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SimpleList" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Java_study.Generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Java_study.Generics.SimpleList" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Study" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SimpleListMap" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Java_study.Generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Java_study.Generics.SimpleListMap" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Study" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Java_study.Patterns.Observer.VerySimpleObserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Java_study.Patterns.Observer.VerySimpleObserver.App" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -835,19 +726,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.A" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Application" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Java_study.Patterns in Study" />
-      <item index="3" class="java.lang.String" itemvalue="Application.App" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Java_study.Patterns in Study" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SimpleMap" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SimpleList" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SimpleListMap" />
+      <item index="4" class="java.lang.String" itemvalue="Application.App" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.App" />
         <item index="1" class="java.lang.String" itemvalue="Application.App" />
-        <item index="2" class="java.lang.String" itemvalue="Application.A" />
-        <item index="3" class="java.lang.String" itemvalue="Application.App" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.Java_study.Patterns in Study" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SimpleList" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SimpleListMap" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SimpleMap" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -897,32 +789,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39911798" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.4024256" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.21940464" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.6703418" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.4432194" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -988,120 +880,120 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/SimpleObserver/Observed.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Generics/SimpleListMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="54" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
+        <state line="23" column="0" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/SimpleObserver/JavaDeveloperJobSite.java">
+    <entry file="jar://C:/Java/jdk1.8.0_60/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+        <state line="306" column="12" selection-start="13221" selection-end="13221" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/ParametredObserver/JavaDeveloperJobSite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/LogNotificationListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/SimpleObserver/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+        <state line="2" column="13" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/SimpleObserver/Subscriber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="38" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+        <state line="12" column="95" selection-start="288" selection-end="372" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/SimpleObserver/Observer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/ParametredObserver/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+        <state line="20" column="0" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/SimpleObserver/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/ParametredObserver/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="7" column="52" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/Subscriber.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/ParametredObserver/Observed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
+        <state line="2" column="17" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/Observer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/ParametredObserver/Subscriber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="16" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
+        <state line="24" column="0" selection-start="839" selection-end="839" vertical-scroll-proportion="0.6426117">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/EventManager.java">
+    <entry file="jar://C:/Java/jdk1.8.0_60/src.zip!/java/lang/Override.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="52" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0">
+        <state line="50" column="9" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/VerySimpleObserver/Observed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="127" selection-end="154" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/VerySimpleObserver/Subscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/SimpleObserver/JavaDeveloperJobSite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="119" selection-end="119" vertical-scroll-proportion="0.14604811">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/VerySimpleObserver/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="41" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/VerySimpleObserver/NewsSite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="10" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/EmailNotificationListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/VerySimpleObserver/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/EventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/Editor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="16" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/EventManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="177" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/refactoringGuru/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="399" selection-end="399" vertical-scroll-proportion="0.1548583">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="25" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_study/Patterns/Observer/JavaDeveloperJobSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="16" selection-start="497" selection-end="497" vertical-scroll-proportion="0.33333334">
+        <state line="8" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="0.23367697">
           <folding />
         </state>
       </provider>
