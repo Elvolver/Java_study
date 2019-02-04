@@ -1,16 +1,9 @@
 package Java_study.Patterns.AbstractFactory.Furniture;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-/**
- * Created with IntelliJ IDEA.
- * User: volkov
- * Date: 25.01.19
- * Time: 11:29
- * To change this template use File | Settings | File Templates.
- */
 public class VictorianCoffeeTableTest {
     private VictorianCoffeeTable victorianCoffeeTable = new VictorianCoffeeTable();
     private VictorianCoffeeTable victorianCoffeeTable2 = new VictorianCoffeeTable();
