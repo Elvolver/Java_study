@@ -1,4 +1,4 @@
-package Java_study.Patterns.Observer;
+package Java_study.Patterns.Observer.ParametredObserver;
 
 public interface Observed {
     public void addObserver (Observer observer);
